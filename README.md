@@ -2,7 +2,7 @@
 
 Machine-readable LLM token pricing across **172 models**, automatically refreshed daily from [Straitly](https://straitly.ai/llm-api-price-index).
 
-- Updated: `2026-11-25T15:03:18Z`
+- Updated: `2026-11-25T22:35:05Z`
 - JSON feed: [`prices.json`](prices.json) (raw: `https://raw.githubusercontent.com/Straitly-ai/llm-price-index/main/prices.json`)
 - CSV feed: [`prices.csv`](prices.csv)
 - Interactive index & calculators: https://straitly.ai/llm-api-price-index
