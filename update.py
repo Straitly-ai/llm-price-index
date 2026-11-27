@@ -17,6 +17,18 @@ def fmt_usd(v):
     return f"${v:.4f}".rstrip("0").rstrip(".") if v < 0.1 else f"${v:.2f}"
 
 
+def maker_price(m):
+    """The maker's list price: the catalog's list field, else its official direct price."""
+    lst = m.get("list") or {}
+    if lst.get("input") is not None or lst.get("output") is not None:
+        return lst.get("input"), lst.get("output"), "list"
+    d = m.get("direct") or {}
+    p = d.get("price") or {}
+    if d.get("basis") == "official" and (p.get("input") is not None or p.get("output") is not None):
+        return p.get("input"), p.get("output"), "official"
+    return None, None, ""
+
+
 def main():
     req = urllib.request.Request(CATALOG_URL, headers={"User-Agent": "straitly-llm-price-index/1.0"})
     with urllib.request.urlopen(req, timeout=30) as r:
@@ -29,11 +41,11 @@ def main():
         if mid in EXCLUDE_IDS or "gemini-4-neon" in str(m.get("key") or ""):
             continue
         price = m.get("price") or {}
-        lst = m.get("list") or {}
         inp = price.get("input")
         out = price.get("output")
         if inp is None and out is None:
             continue
+        list_in, list_out, list_basis = maker_price(m)
         rows.append({
             "key": m.get("key"),
             "id": mid,
@@ -43,9 +55,10 @@ def main():
             "released": m.get("released"),
             "straitly_input_per_1m_usd": inp,
             "straitly_output_per_1m_usd": out,
-            "list_input_per_1m_usd": lst.get("input"),
-            "list_output_per_1m_usd": lst.get("output"),
+            "list_input_per_1m_usd": list_in,
+            "list_output_per_1m_usd": list_out,
             "url": f"https://straitly.ai/models/{mid}",
+            "list_basis": list_basis,
         })
 
     rows.sort(key=lambda r: (r["released"] or "", r["key"] or ""), reverse=True)
@@ -63,6 +76,7 @@ def main():
         "key", "name", "lab", "context", "released",
         "straitly_input_per_1m_usd", "straitly_output_per_1m_usd",
         "list_input_per_1m_usd", "list_output_per_1m_usd", "url",
+        "list_basis",
     ]
     with (ROOT / "prices.csv").open("w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=fields, extrasaction="ignore")
@@ -78,6 +92,7 @@ def main():
         f"- Updated: `{now}`",
         "- JSON feed: [`prices.json`](prices.json) (raw: `https://raw.githubusercontent.com/Straitly-ai/llm-price-index/main/prices.json`)",
         "- CSV feed: [`prices.csv`](prices.csv)",
+        "- Hugging Face: [Straitly-ai/llm-api-prices](https://huggingface.co/datasets/Straitly-ai/llm-api-prices)",
         "- Interactive index & calculators: https://straitly.ai/llm-api-price-index",
         "- Full model catalog: https://straitly.ai/models",
         "",

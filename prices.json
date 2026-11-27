@@ -1,7 +1,7 @@
 {
   "source": "https://straitly.ai/llm-api-price-index",
   "catalog": "https://straitly.ai/api/catalog",
-  "updated_at_utc": "2026-11-26T22:23:15Z",
+  "updated_at_utc": "2026-11-27T01:51:33Z",
   "model_count": 172,
   "models": [
     {
@@ -15,7 +15,8 @@
       "straitly_output_per_1m_usd": 24,
       "list_input_per_1m_usd": 8,
       "list_output_per_1m_usd": 40,
-      "url": "https://straitly.ai/models/claude-fable-5.2"
+      "url": "https://straitly.ai/models/claude-fable-5.2",
+      "list_basis": "list"
     },
     {
       "key": "deepseek/deepseek-v4-1-flash-1017",
@@ -28,7 +29,8 @@
       "straitly_output_per_1m_usd": 0.36,
       "list_input_per_1m_usd": 0.15,
       "list_output_per_1m_usd": 0.6,
-      "url": "https://straitly.ai/models/deepseek/deepseek-v4-1-flash-1017"
+      "url": "https://straitly.ai/models/deepseek/deepseek-v4-1-flash-1017",
+      "list_basis": "list"
     },
     {
       "key": "google/gemini-4-argon",
@@ -41,7 +43,8 @@
       "straitly_output_per_1m_usd": 6,
       "list_input_per_1m_usd": 2,
       "list_output_per_1m_usd": 10,
-      "url": "https://straitly.ai/models/gemini-4-argon"
+      "url": "https://straitly.ai/models/gemini-4-argon",
+      "list_basis": "list"
     },
     {
       "key": "meta/muse-wonder",
@@ -54,7 +57,8 @@
       "straitly_output_per_1m_usd": 12,
       "list_input_per_1m_usd": 4,
       "list_output_per_1m_usd": 20,
-      "url": "https://straitly.ai/models/muse-wonder"
+      "url": "https://straitly.ai/models/muse-wonder",
+      "list_basis": "list"
     },
     {
       "key": "claude-haiku-5.5",
@@ -65,9 +69,10 @@
       "released": "2026-10-07",
       "straitly_input_per_1m_usd": 0.06,
       "straitly_output_per_1m_usd": 0.3,
-      "list_input_per_1m_usd": null,
-      "list_output_per_1m_usd": null,
-      "url": "https://straitly.ai/models/claude-haiku-5-5"
+      "list_input_per_1m_usd": 0.1,
+      "list_output_per_1m_usd": 0.5,
+      "url": "https://straitly.ai/models/claude-haiku-5-5",
+      "list_basis": "official"
     },
     {
       "key": "openai/gpt-6.1-sol",
@@ -80,7 +85,8 @@
       "straitly_output_per_1m_usd": 6,
       "list_input_per_1m_usd": 2,
       "list_output_per_1m_usd": 10,
-      "url": "https://straitly.ai/models/gpt-6.1-sol"
+      "url": "https://straitly.ai/models/gpt-6.1-sol",
+      "list_basis": "list"
     },
     {
       "key": "claude-sonnet-5.5",
@@ -91,9 +97,10 @@
       "released": "2026-09-28",
       "straitly_input_per_1m_usd": 1.2,
       "straitly_output_per_1m_usd": 6,
-      "list_input_per_1m_usd": null,
-      "list_output_per_1m_usd": null,
-      "url": "https://straitly.ai/models/claude-sonnet-5-5"
+      "list_input_per_1m_usd": 2,
+      "list_output_per_1m_usd": 10,
+      "url": "https://straitly.ai/models/claude-sonnet-5-5",
+      "list_basis": "official"
     },
     {
       "key": "glm-5.3-prime",
@@ -106,7 +113,8 @@
       "straitly_output_per_1m_usd": 5.86668,
       "list_input_per_1m_usd": null,
       "list_output_per_1m_usd": null,
-      "url": "https://straitly.ai/models/z-ai/glm-5.3-prime"
+      "url": "https://straitly.ai/models/z-ai/glm-5.3-prime",
+      "list_basis": ""
     },
     {
       "key": "aion-labs/aion-3.5-mini",
@@ -117,9 +125,10 @@
       "released": "2026-09-23",
       "straitly_input_per_1m_usd": 0.42,
       "straitly_output_per_1m_usd": 0.84,
-      "list_input_per_1m_usd": null,
-      "list_output_per_1m_usd": null,
-      "url": "https://straitly.ai/models/aion-labs/aion-3.5-mini"
+      "list_input_per_1m_usd": 0.7,
+      "list_output_per_1m_usd": 1.4,
+      "url": "https://straitly.ai/models/aion-labs/aion-3.5-mini",
+      "list_basis": "official"
     },
     {
       "key": "aion-labs/aion-3.5",
@@ -130,9 +139,10 @@
       "released": "2026-09-23",
       "straitly_input_per_1m_usd": 1.8,
       "straitly_output_per_1m_usd": 3.6,
-      "list_input_per_1m_usd": null,
-      "list_output_per_1m_usd": null,
-      "url": "https://straitly.ai/models/aion-labs/aion-3.5"
+      "list_input_per_1m_usd": 3,
+      "list_output_per_1m_usd": 6,
+      "url": "https://straitly.ai/models/aion-labs/aion-3.5",
+      "list_basis": "official"
     },
     {
       "key": "openai/gpt-6-sol",
@@ -145,7 +155,8 @@
       "straitly_output_per_1m_usd": 6,
       "list_input_per_1m_usd": 2,
       "list_output_per_1m_usd": 10,
-      "url": "https://straitly.ai/models/gpt-6-sol"
+      "url": "https://straitly.ai/models/gpt-6-sol",
+      "list_basis": "list"
     },
     {
       "key": "openai/gpt-6-luna",
@@ -158,7 +169,8 @@
       "straitly_output_per_1m_usd": 0.3,
       "list_input_per_1m_usd": 0.1,
       "list_output_per_1m_usd": 0.5,
-      "url": "https://straitly.ai/models/gpt-6-luna"
+      "url": "https://straitly.ai/models/gpt-6-luna",
+      "list_basis": "list"
     },
     {
       "key": "anthropic/claude-opus-5-5",
@@ -169,9 +181,10 @@
       "released": "2026-09-22",
       "straitly_input_per_1m_usd": 2.4,
       "straitly_output_per_1m_usd": 12,
-      "list_input_per_1m_usd": null,
-      "list_output_per_1m_usd": null,
-      "url": "https://straitly.ai/models/claude-opus-5-5"
+      "list_input_per_1m_usd": 4,
+      "list_output_per_1m_usd": 20,
+      "url": "https://straitly.ai/models/claude-opus-5-5",
+      "list_basis": "official"
     },
     {
       "key": "xiaomi/mimo-v2.6-pro",
@@ -184,7 +197,8 @@
       "straitly_output_per_1m_usd": 0.60465,
       "list_input_per_1m_usd": 0.43,
       "list_output_per_1m_usd": 0.87,
-      "url": "https://straitly.ai/models/xiaomi/mimo-v2.6-pro"
+      "url": "https://straitly.ai/models/xiaomi/mimo-v2.6-pro",
+      "list_basis": "list"
     },
     {
       "key": "x-ai/grok-4.7",
@@ -197,7 +211,8 @@
       "straitly_output_per_1m_usd": 3.6,
       "list_input_per_1m_usd": 2,
       "list_output_per_1m_usd": 6,
-      "url": "https://straitly.ai/models/grok-4.7"
+      "url": "https://straitly.ai/models/grok-4.7",
+      "list_basis": "list"
     },
     {
       "key": "deepseek/deepseek-v4-1-flash",
@@ -210,7 +225,8 @@
       "straitly_output_per_1m_usd": 0.152946,
       "list_input_per_1m_usd": 0.141,
       "list_output_per_1m_usd": 0.565,
-      "url": "https://straitly.ai/models/deepseek/deepseek-v4-1-flash"
+      "url": "https://straitly.ai/models/deepseek/deepseek-v4-1-flash",
+      "list_basis": "list"
     },
     {
       "key": "openai/gpt-6-astra",
@@ -223,7 +239,8 @@
       "straitly_output_per_1m_usd": 30,
       "list_input_per_1m_usd": 10,
       "list_output_per_1m_usd": 50,
-      "url": "https://straitly.ai/models/gpt-6-astra"
+      "url": "https://straitly.ai/models/gpt-6-astra",
+      "list_basis": "list"
     },
     {
       "key": "qwen/qwen3.8-max",
@@ -236,7 +253,8 @@
       "straitly_output_per_1m_usd": 2.9706,
       "list_input_per_1m_usd": 1.65,
       "list_output_per_1m_usd": 4.951,
-      "url": "https://straitly.ai/models/qwen/qwen3.8-max"
+      "url": "https://straitly.ai/models/qwen/qwen3.8-max",
+      "list_basis": "list"
     },
     {
       "key": "meta-llama/muse-spark-1.3-contributor",
@@ -247,9 +265,10 @@
       "released": "2026-09-02",
       "straitly_input_per_1m_usd": 0.06,
       "straitly_output_per_1m_usd": 0.12,
-      "list_input_per_1m_usd": null,
-      "list_output_per_1m_usd": null,
-      "url": "https://straitly.ai/models/meta-llama/muse-spark-1.3-contributor"
+      "list_input_per_1m_usd": 0.1,
+      "list_output_per_1m_usd": 0.2,
+      "url": "https://straitly.ai/models/meta-llama/muse-spark-1.3-contributor",
+      "list_basis": "official"
     },
     {
       "key": "meta-llama/muse-spark-1.3",
@@ -262,7 +281,8 @@
       "straitly_output_per_1m_usd": 2.55,
       "list_input_per_1m_usd": 1.25,
       "list_output_per_1m_usd": 4.25,
-      "url": "https://straitly.ai/models/meta-llama/muse-spark-1.3"
+      "url": "https://straitly.ai/models/meta-llama/muse-spark-1.3",
+      "list_basis": "list"
     },
     {
       "key": "google/gemini-3.8-flash",
@@ -275,7 +295,8 @@
       "straitly_output_per_1m_usd": 2.25,
       "list_input_per_1m_usd": 0.75,
       "list_output_per_1m_usd": 3.75,
-      "url": "https://straitly.ai/models/gemini-3.8-flash"
+      "url": "https://straitly.ai/models/gemini-3.8-flash",
+      "list_basis": "list"
     },
     {
       "key": "anthropic/claude-fable-5.1",
@@ -288,7 +309,8 @@
       "straitly_output_per_1m_usd": 30,
       "list_input_per_1m_usd": 10,
       "list_output_per_1m_usd": 50,
-      "url": "https://straitly.ai/models/claude-fable-5.1"
+      "url": "https://straitly.ai/models/claude-fable-5.1",
+      "list_basis": "list"
     },
     {
       "key": "z-ai/glm-5.3-flash",
@@ -301,7 +323,8 @@
       "straitly_output_per_1m_usd": 0.1275,
       "list_input_per_1m_usd": 0.075,
       "list_output_per_1m_usd": 0.25,
-      "url": "https://straitly.ai/models/z-ai/glm-5.3-flash"
+      "url": "https://straitly.ai/models/z-ai/glm-5.3-flash",
+      "list_basis": "list"
     },
     {
       "key": "qwen/qwen3.8-flash",
@@ -314,7 +337,8 @@
       "straitly_output_per_1m_usd": 0.2292,
       "list_input_per_1m_usd": 0.113,
       "list_output_per_1m_usd": 0.382,
-      "url": "https://straitly.ai/models/qwen/qwen3.8-flash"
+      "url": "https://straitly.ai/models/qwen/qwen3.8-flash",
+      "list_basis": "list"
     },
     {
       "key": "meta-llama/muse-spark-1.2-contributor",
@@ -327,7 +351,8 @@
       "straitly_output_per_1m_usd": 0.12,
       "list_input_per_1m_usd": 0.1,
       "list_output_per_1m_usd": 0.2,
-      "url": "https://straitly.ai/models/meta-llama/muse-spark-1.2-contributor"
+      "url": "https://straitly.ai/models/meta-llama/muse-spark-1.2-contributor",
+      "list_basis": "list"
     },
     {
       "key": "z-ai/glm-5.3",
@@ -340,7 +365,8 @@
       "straitly_output_per_1m_usd": 1.3866,
       "list_input_per_1m_usd": 0.9,
       "list_output_per_1m_usd": 3,
-      "url": "https://straitly.ai/models/z-ai/glm-5.3"
+      "url": "https://straitly.ai/models/z-ai/glm-5.3",
+      "list_basis": "list"
     },
     {
       "key": "qwen/qwen3.8-27b",
@@ -353,7 +379,8 @@
       "straitly_output_per_1m_usd": 0.8799,
       "list_input_per_1m_usd": 0.42,
       "list_output_per_1m_usd": 3,
-      "url": "https://straitly.ai/models/qwen/qwen3.8-27b"
+      "url": "https://straitly.ai/models/qwen/qwen3.8-27b",
+      "list_basis": "list"
     },
     {
       "key": "google/gemini-3.7-flash",
@@ -366,7 +393,8 @@
       "straitly_output_per_1m_usd": 2.25,
       "list_input_per_1m_usd": 0.75,
       "list_output_per_1m_usd": 3.75,
-      "url": "https://straitly.ai/models/google/gemini-3.7-flash"
+      "url": "https://straitly.ai/models/google/gemini-3.7-flash",
+      "list_basis": "list"
     },
     {
       "key": "x-ai/grok-4.6",
@@ -379,7 +407,8 @@
       "straitly_output_per_1m_usd": 3.6,
       "list_input_per_1m_usd": 2,
       "list_output_per_1m_usd": 6,
-      "url": "https://straitly.ai/models/x-ai/grok-4.6"
+      "url": "https://straitly.ai/models/x-ai/grok-4.6",
+      "list_basis": "list"
     },
     {
       "key": "qwen3.8-2.4t-a95b",
@@ -390,9 +419,10 @@
       "released": "2026-08-12",
       "straitly_input_per_1m_usd": 1.33332,
       "straitly_output_per_1m_usd": 4.00002,
-      "list_input_per_1m_usd": null,
-      "list_output_per_1m_usd": null,
-      "url": "https://straitly.ai/models/qwen/qwen3.8-2.4t-a95b"
+      "list_input_per_1m_usd": 2,
+      "list_output_per_1m_usd": 6,
+      "url": "https://straitly.ai/models/qwen/qwen3.8-2.4t-a95b",
+      "list_basis": "official"
     },
     {
       "key": "deepseek/deepseek-v4-pro-0813",
@@ -405,7 +435,8 @@
       "straitly_output_per_1m_usd": 2.376,
       "list_input_per_1m_usd": 1.32,
       "list_output_per_1m_usd": 3.96,
-      "url": "https://straitly.ai/models/deepseek/deepseek-v4-pro-0813"
+      "url": "https://straitly.ai/models/deepseek/deepseek-v4-pro-0813",
+      "list_basis": "list"
     },
     {
       "key": "nvidia/nemotron-lightning-3.5-30b",
@@ -418,7 +449,8 @@
       "straitly_output_per_1m_usd": 0.09464,
       "list_input_per_1m_usd": null,
       "list_output_per_1m_usd": null,
-      "url": "https://straitly.ai/models/nvidia/nemotron-lightning-3.5-30b"
+      "url": "https://straitly.ai/models/nvidia/nemotron-lightning-3.5-30b",
+      "list_basis": ""
     },
     {
       "key": "meta/muse-glimmer-30b",
@@ -431,7 +463,8 @@
       "straitly_output_per_1m_usd": 0.9,
       "list_input_per_1m_usd": null,
       "list_output_per_1m_usd": null,
-      "url": "https://straitly.ai/models/meta/muse-glimmer-30b"
+      "url": "https://straitly.ai/models/meta/muse-glimmer-30b",
+      "list_basis": ""
     },
     {
       "key": "meta-llama/muse-spark-1.2",
@@ -442,9 +475,10 @@
       "released": "2026-08-05",
       "straitly_input_per_1m_usd": 0.75,
       "straitly_output_per_1m_usd": 2.55,
-      "list_input_per_1m_usd": null,
-      "list_output_per_1m_usd": null,
-      "url": "https://straitly.ai/models/meta-llama/muse-spark-1.2"
+      "list_input_per_1m_usd": 1.25,
+      "list_output_per_1m_usd": 4.25,
+      "url": "https://straitly.ai/models/meta-llama/muse-spark-1.2",
+      "list_basis": "official"
     },
     {
       "key": "deepseek/deepseek-v4-flash-0731",
@@ -457,7 +491,8 @@
       "straitly_output_per_1m_usd": 0.0918,
       "list_input_per_1m_usd": 0.076,
       "list_output_per_1m_usd": 0.153,
-      "url": "https://straitly.ai/models/deepseek/deepseek-v4-flash-0731"
+      "url": "https://straitly.ai/models/deepseek/deepseek-v4-flash-0731",
+      "list_basis": "list"
     },
     {
       "key": "qwen/qwen3.7-flash",
@@ -470,7 +505,8 @@
       "straitly_output_per_1m_usd": 0.066,
       "list_input_per_1m_usd": 0.028,
       "list_output_per_1m_usd": 0.11,
-      "url": "https://straitly.ai/models/qwen/qwen3.7-flash"
+      "url": "https://straitly.ai/models/qwen/qwen3.7-flash",
+      "list_basis": "list"
     },
     {
       "key": "anthropic/claude-opus-5-fast",
@@ -481,9 +517,10 @@
       "released": "2026-07-24",
       "straitly_input_per_1m_usd": 6,
       "straitly_output_per_1m_usd": 30,
-      "list_input_per_1m_usd": null,
-      "list_output_per_1m_usd": null,
-      "url": "https://straitly.ai/models/claude-opus-5-fast"
+      "list_input_per_1m_usd": 10,
+      "list_output_per_1m_usd": 50,
+      "url": "https://straitly.ai/models/claude-opus-5-fast",
+      "list_basis": "official"
     },
     {
       "key": "anthropic/claude-opus-5",
@@ -496,7 +533,8 @@
       "straitly_output_per_1m_usd": 15,
       "list_input_per_1m_usd": 5,
       "list_output_per_1m_usd": 25,
-      "url": "https://straitly.ai/models/claude-opus-5"
+      "url": "https://straitly.ai/models/claude-opus-5",
+      "list_basis": "list"
     },
     {
       "key": "google/gemini-3.6-flash",
@@ -509,7 +547,8 @@
       "straitly_output_per_1m_usd": 2.25,
       "list_input_per_1m_usd": 0.75,
       "list_output_per_1m_usd": 3.75,
-      "url": "https://straitly.ai/models/gemini-3.6-flash"
+      "url": "https://straitly.ai/models/gemini-3.6-flash",
+      "list_basis": "list"
     },
     {
       "key": "google/gemini-3.5-flash-lite",
@@ -522,7 +561,8 @@
       "straitly_output_per_1m_usd": 1.5,
       "list_input_per_1m_usd": 0.3,
       "list_output_per_1m_usd": 2.5,
-      "url": "https://straitly.ai/models/google/gemini-3.5-flash-lite"
+      "url": "https://straitly.ai/models/google/gemini-3.5-flash-lite",
+      "list_basis": "list"
     },
     {
       "key": "thinkingmachines/inkling",
@@ -535,7 +575,8 @@
       "straitly_output_per_1m_usd": 3,
       "list_input_per_1m_usd": null,
       "list_output_per_1m_usd": null,
-      "url": "https://straitly.ai/models/thinkingmachines/inkling"
+      "url": "https://straitly.ai/models/thinkingmachines/inkling",
+      "list_basis": ""
     },
     {
       "key": "moonshotai/kimi-k3",
@@ -548,7 +589,8 @@
       "straitly_output_per_1m_usd": 7.64878,
       "list_input_per_1m_usd": 2.827,
       "list_output_per_1m_usd": 14.133,
-      "url": "https://straitly.ai/models/moonshotai/kimi-k3"
+      "url": "https://straitly.ai/models/moonshotai/kimi-k3",
+      "list_basis": "list"
     },
     {
       "key": "meta-llama/muse-spark-1.1",
@@ -561,7 +603,8 @@
       "straitly_output_per_1m_usd": 2.55,
       "list_input_per_1m_usd": 1.25,
       "list_output_per_1m_usd": 4.25,
-      "url": "https://straitly.ai/models/meta-llama/muse-spark-1.1"
+      "url": "https://straitly.ai/models/meta-llama/muse-spark-1.1",
+      "list_basis": "list"
     },
     {
       "key": "openai/gpt-5.6-terra-pro",
@@ -574,7 +617,8 @@
       "straitly_output_per_1m_usd": 7.2,
       "list_input_per_1m_usd": 2,
       "list_output_per_1m_usd": 12,
-      "url": "https://straitly.ai/models/openai/gpt-5.6-terra-pro"
+      "url": "https://straitly.ai/models/openai/gpt-5.6-terra-pro",
+      "list_basis": "list"
     },
     {
       "key": "openai/gpt-5.6-terra",
@@ -587,7 +631,8 @@
       "straitly_output_per_1m_usd": 7.2,
       "list_input_per_1m_usd": 2,
       "list_output_per_1m_usd": 12,
-      "url": "https://straitly.ai/models/gpt-5.6-terra"
+      "url": "https://straitly.ai/models/gpt-5.6-terra",
+      "list_basis": "list"
     },
     {
       "key": "openai/gpt-5.6-sol-pro",
@@ -600,7 +645,8 @@
       "straitly_output_per_1m_usd": 8.5,
       "list_input_per_1m_usd": 4,
       "list_output_per_1m_usd": 20,
-      "url": "https://straitly.ai/models/openai/gpt-5.6-sol-pro"
+      "url": "https://straitly.ai/models/openai/gpt-5.6-sol-pro",
+      "list_basis": "list"
     },
     {
       "key": "openai/gpt-5.6-sol",
@@ -613,7 +659,8 @@
       "straitly_output_per_1m_usd": 8.5,
       "list_input_per_1m_usd": 4,
       "list_output_per_1m_usd": 20,
-      "url": "https://straitly.ai/models/gpt-5.6-sol"
+      "url": "https://straitly.ai/models/gpt-5.6-sol",
+      "list_basis": "list"
     },
     {
       "key": "openai/gpt-5.6-luna-pro",
@@ -626,7 +673,8 @@
       "straitly_output_per_1m_usd": 0.72,
       "list_input_per_1m_usd": 0.2,
       "list_output_per_1m_usd": 1.2,
-      "url": "https://straitly.ai/models/openai/gpt-5.6-luna-pro"
+      "url": "https://straitly.ai/models/openai/gpt-5.6-luna-pro",
+      "list_basis": "list"
     },
     {
       "key": "openai/gpt-5.6-luna",
@@ -639,7 +687,8 @@
       "straitly_output_per_1m_usd": 0.72,
       "list_input_per_1m_usd": 0.2,
       "list_output_per_1m_usd": 1.2,
-      "url": "https://straitly.ai/models/gpt-5.6-luna"
+      "url": "https://straitly.ai/models/gpt-5.6-luna",
+      "list_basis": "list"
     },
     {
       "key": "x-ai/grok-4.5",
@@ -652,7 +701,8 @@
       "straitly_output_per_1m_usd": 3.6,
       "list_input_per_1m_usd": 2,
       "list_output_per_1m_usd": 6,
-      "url": "https://straitly.ai/models/x-ai/grok-4.5"
+      "url": "https://straitly.ai/models/x-ai/grok-4.5",
+      "list_basis": "list"
     },
     {
       "key": "aion-labs/aion-3.0",
@@ -663,9 +713,10 @@
       "released": "2026-07-07",
       "straitly_input_per_1m_usd": 1.8,
       "straitly_output_per_1m_usd": 3.6,
-      "list_input_per_1m_usd": null,
-      "list_output_per_1m_usd": null,
-      "url": "https://straitly.ai/models/aion-labs/aion-3.0"
+      "list_input_per_1m_usd": 3,
+      "list_output_per_1m_usd": 6,
+      "url": "https://straitly.ai/models/aion-labs/aion-3.0",
+      "list_basis": "official"
     },
     {
       "key": "tencent/hy3",
@@ -678,7 +729,8 @@
       "straitly_output_per_1m_usd": 0.348,
       "list_input_per_1m_usd": 0.14,
       "list_output_per_1m_usd": 0.58,
-      "url": "https://straitly.ai/models/tencent/hy3"
+      "url": "https://straitly.ai/models/tencent/hy3",
+      "list_basis": "list"
     },
     {
       "key": "anthropic/claude-sonnet-5",
@@ -691,7 +743,8 @@
       "straitly_output_per_1m_usd": 6,
       "list_input_per_1m_usd": 2,
       "list_output_per_1m_usd": 10,
-      "url": "https://straitly.ai/models/claude-sonnet-5"
+      "url": "https://straitly.ai/models/claude-sonnet-5",
+      "list_basis": "list"
     },
     {
       "key": "z-ai/glm-5.2",
@@ -704,7 +757,8 @@
       "straitly_output_per_1m_usd": 1.44,
       "list_input_per_1m_usd": 0.75,
       "list_output_per_1m_usd": 2.4,
-      "url": "https://straitly.ai/models/z-ai/glm-5.2"
+      "url": "https://straitly.ai/models/z-ai/glm-5.2",
+      "list_basis": "list"
     },
     {
       "key": "moonshotai/kimi-k2.7-code",
@@ -715,9 +769,10 @@
       "released": "2026-06-12",
       "straitly_input_per_1m_usd": 0.408,
       "straitly_output_per_1m_usd": 2.04,
-      "list_input_per_1m_usd": null,
-      "list_output_per_1m_usd": null,
-      "url": "https://straitly.ai/models/moonshotai/kimi-k2.7-code"
+      "list_input_per_1m_usd": 0.95,
+      "list_output_per_1m_usd": 4,
+      "url": "https://straitly.ai/models/moonshotai/kimi-k2.7-code",
+      "list_basis": "official"
     },
     {
       "key": "anthropic/claude-fable-5",
@@ -730,7 +785,8 @@
       "straitly_output_per_1m_usd": 30,
       "list_input_per_1m_usd": 10,
       "list_output_per_1m_usd": 50,
-      "url": "https://straitly.ai/models/claude-fable-5"
+      "url": "https://straitly.ai/models/claude-fable-5",
+      "list_basis": "list"
     },
     {
       "key": "nvidia/nemotron-3-ultra-550b-a55b",
@@ -743,7 +799,8 @@
       "straitly_output_per_1m_usd": 1.32,
       "list_input_per_1m_usd": 0.5,
       "list_output_per_1m_usd": 2.2,
-      "url": "https://straitly.ai/models/nvidia/nemotron-3-ultra-550b-a55b"
+      "url": "https://straitly.ai/models/nvidia/nemotron-3-ultra-550b-a55b",
+      "list_basis": "list"
     },
     {
       "key": "qwen/qwen3.7-plus",
@@ -756,7 +813,8 @@
       "straitly_output_per_1m_usd": 1.095495,
       "list_input_per_1m_usd": 0.276,
       "list_output_per_1m_usd": 1.101,
-      "url": "https://straitly.ai/models/qwen/qwen3.7-plus"
+      "url": "https://straitly.ai/models/qwen/qwen3.7-plus",
+      "list_basis": "list"
     },
     {
       "key": "minimax/minimax-m3",
@@ -769,7 +827,8 @@
       "straitly_output_per_1m_usd": 0.66,
       "list_input_per_1m_usd": 0.28,
       "list_output_per_1m_usd": 1.1,
-      "url": "https://straitly.ai/models/minimax/minimax-m3"
+      "url": "https://straitly.ai/models/minimax/minimax-m3",
+      "list_basis": "list"
     },
     {
       "key": "stepfun/step-3.7-flash",
@@ -782,7 +841,8 @@
       "straitly_output_per_1m_usd": 0.69,
       "list_input_per_1m_usd": 0.2,
       "list_output_per_1m_usd": 1.15,
-      "url": "https://straitly.ai/models/stepfun/step-3.7-flash"
+      "url": "https://straitly.ai/models/stepfun/step-3.7-flash",
+      "list_basis": "list"
     },
     {
       "key": "anthropic/claude-opus-4.8-fast",
@@ -793,9 +853,10 @@
       "released": "2026-05-27",
       "straitly_input_per_1m_usd": 6,
       "straitly_output_per_1m_usd": 30,
-      "list_input_per_1m_usd": null,
-      "list_output_per_1m_usd": null,
-      "url": "https://straitly.ai/models/claude-opus-4.8-fast"
+      "list_input_per_1m_usd": 10,
+      "list_output_per_1m_usd": 50,
+      "url": "https://straitly.ai/models/claude-opus-4.8-fast",
+      "list_basis": "official"
     },
     {
       "key": "anthropic/claude-opus-4.8",
@@ -808,7 +869,8 @@
       "straitly_output_per_1m_usd": 15,
       "list_input_per_1m_usd": 5,
       "list_output_per_1m_usd": 25,
-      "url": "https://straitly.ai/models/anthropic/claude-opus-4.8"
+      "url": "https://straitly.ai/models/anthropic/claude-opus-4.8",
+      "list_basis": "list"
     },
     {
       "key": "qwen/qwen3.7-max",
@@ -821,7 +883,8 @@
       "straitly_output_per_1m_usd": 2.25,
       "list_input_per_1m_usd": 1.25,
       "list_output_per_1m_usd": 3.75,
-      "url": "https://straitly.ai/models/qwen/qwen3.7-max"
+      "url": "https://straitly.ai/models/qwen/qwen3.7-max",
+      "list_basis": "list"
     },
     {
       "key": "grok-build-0.1",
@@ -834,7 +897,8 @@
       "straitly_output_per_1m_usd": 1.2,
       "list_input_per_1m_usd": 1,
       "list_output_per_1m_usd": 2,
-      "url": "https://straitly.ai/models/grok-build-0.1"
+      "url": "https://straitly.ai/models/grok-build-0.1",
+      "list_basis": "list"
     },
     {
       "key": "google/gemini-3.5-flash",
@@ -847,7 +911,8 @@
       "straitly_output_per_1m_usd": 5.4,
       "list_input_per_1m_usd": 1.5,
       "list_output_per_1m_usd": 9,
-      "url": "https://straitly.ai/models/google/gemini-3.5-flash"
+      "url": "https://straitly.ai/models/google/gemini-3.5-flash",
+      "list_basis": "list"
     },
     {
       "key": "google/gemini-3.1-flash-lite",
@@ -860,7 +925,8 @@
       "straitly_output_per_1m_usd": 0.9,
       "list_input_per_1m_usd": 0.25,
       "list_output_per_1m_usd": 1.5,
-      "url": "https://straitly.ai/models/google/gemini-3.1-flash-lite"
+      "url": "https://straitly.ai/models/google/gemini-3.1-flash-lite",
+      "list_basis": "list"
     },
     {
       "key": "x-ai/grok-4.3",
@@ -873,7 +939,8 @@
       "straitly_output_per_1m_usd": 1.5,
       "list_input_per_1m_usd": 1.25,
       "list_output_per_1m_usd": 2.5,
-      "url": "https://straitly.ai/models/x-ai/grok-4.3"
+      "url": "https://straitly.ai/models/x-ai/grok-4.3",
+      "list_basis": "list"
     },
     {
       "key": "qwen/qwen3.6-35b-a3b",
@@ -886,7 +953,8 @@
       "straitly_output_per_1m_usd": 0.5491,
       "list_input_per_1m_usd": null,
       "list_output_per_1m_usd": null,
-      "url": "https://straitly.ai/models/qwen/qwen3.6-35b-a3b"
+      "url": "https://straitly.ai/models/qwen/qwen3.6-35b-a3b",
+      "list_basis": ""
     },
     {
       "key": "qwen/qwen3.6-27b",
@@ -899,7 +967,8 @@
       "straitly_output_per_1m_usd": 1.92,
       "list_input_per_1m_usd": 0.32,
       "list_output_per_1m_usd": 3.2,
-      "url": "https://straitly.ai/models/qwen/qwen3.6-27b"
+      "url": "https://straitly.ai/models/qwen/qwen3.6-27b",
+      "list_basis": "list"
     },
     {
       "key": "openai/gpt-5.5",
@@ -912,7 +981,8 @@
       "straitly_output_per_1m_usd": 18,
       "list_input_per_1m_usd": 5,
       "list_output_per_1m_usd": 30,
-      "url": "https://straitly.ai/models/gpt-5.5"
+      "url": "https://straitly.ai/models/gpt-5.5",
+      "list_basis": "list"
     },
     {
       "key": "deepseek/deepseek-v4-pro",
@@ -925,7 +995,8 @@
       "straitly_output_per_1m_usd": 1.56,
       "list_input_per_1m_usd": 1.3,
       "list_output_per_1m_usd": 2.6,
-      "url": "https://straitly.ai/models/deepseek/deepseek-v4-pro"
+      "url": "https://straitly.ai/models/deepseek/deepseek-v4-pro",
+      "list_basis": "list"
     },
     {
       "key": "deepseek/deepseek-v4-flash",
@@ -938,7 +1009,8 @@
       "straitly_output_per_1m_usd": 0.0918,
       "list_input_per_1m_usd": 0.076,
       "list_output_per_1m_usd": 0.153,
-      "url": "https://straitly.ai/models/deepseek/deepseek-v4-flash"
+      "url": "https://straitly.ai/models/deepseek/deepseek-v4-flash",
+      "list_basis": "list"
     },
     {
       "key": "xiaomi/mimo-v2.5-pro",
@@ -951,7 +1023,8 @@
       "straitly_output_per_1m_usd": 0.6264,
       "list_input_per_1m_usd": 0.522,
       "list_output_per_1m_usd": 1.044,
-      "url": "https://straitly.ai/models/xiaomi/mimo-v2.5-pro"
+      "url": "https://straitly.ai/models/xiaomi/mimo-v2.5-pro",
+      "list_basis": "list"
     },
     {
       "key": "xiaomi/mimo-v2.5",
@@ -964,7 +1037,8 @@
       "straitly_output_per_1m_usd": 0.25032,
       "list_input_per_1m_usd": 0.168,
       "list_output_per_1m_usd": 0.336,
-      "url": "https://straitly.ai/models/xiaomi/mimo-v2.5"
+      "url": "https://straitly.ai/models/xiaomi/mimo-v2.5",
+      "list_basis": "list"
     },
     {
       "key": "moonshotai/kimi-k2.6",
@@ -977,7 +1051,8 @@
       "straitly_output_per_1m_usd": 1.83,
       "list_input_per_1m_usd": 0.6,
       "list_output_per_1m_usd": 3.05,
-      "url": "https://straitly.ai/models/moonshotai/kimi-k2.6"
+      "url": "https://straitly.ai/models/moonshotai/kimi-k2.6",
+      "list_basis": "list"
     },
     {
       "key": "anthropic/claude-opus-4.7",
@@ -988,9 +1063,10 @@
       "released": "2026-04-16",
       "straitly_input_per_1m_usd": 3,
       "straitly_output_per_1m_usd": 15,
-      "list_input_per_1m_usd": null,
-      "list_output_per_1m_usd": null,
-      "url": "https://straitly.ai/models/claude-opus-4.7"
+      "list_input_per_1m_usd": 5,
+      "list_output_per_1m_usd": 25,
+      "url": "https://straitly.ai/models/claude-opus-4.7",
+      "list_basis": "official"
     },
     {
       "key": "z-ai/glm-5.1",
@@ -1003,7 +1079,8 @@
       "straitly_output_per_1m_usd": 1.9806,
       "list_input_per_1m_usd": 0.825,
       "list_output_per_1m_usd": 3.301,
-      "url": "https://straitly.ai/models/z-ai/glm-5.1"
+      "url": "https://straitly.ai/models/z-ai/glm-5.1",
+      "list_basis": "list"
     },
     {
       "key": "google/gemma-4-26b-a4b-it",
@@ -1016,7 +1093,8 @@
       "straitly_output_per_1m_usd": 0.178466,
       "list_input_per_1m_usd": 0.07,
       "list_output_per_1m_usd": 0.34,
-      "url": "https://straitly.ai/models/google/gemma-4-26b-a4b-it"
+      "url": "https://straitly.ai/models/google/gemma-4-26b-a4b-it",
+      "list_basis": "list"
     },
     {
       "key": "google/gemma-4-31b-it",
@@ -1029,7 +1107,8 @@
       "straitly_output_per_1m_usd": 0.228,
       "list_input_per_1m_usd": 0.13,
       "list_output_per_1m_usd": 0.38,
-      "url": "https://straitly.ai/models/google/gemma-4-31b-it"
+      "url": "https://straitly.ai/models/google/gemma-4-31b-it",
+      "list_basis": "list"
     },
     {
       "key": "z-ai/glm-5v-turbo",
@@ -1042,7 +1121,8 @@
       "straitly_output_per_1m_usd": 2.4,
       "list_input_per_1m_usd": 1.2,
       "list_output_per_1m_usd": 4,
-      "url": "https://straitly.ai/models/z-ai/glm-5v-turbo"
+      "url": "https://straitly.ai/models/z-ai/glm-5v-turbo",
+      "list_basis": "list"
     },
     {
       "key": "x-ai/grok-4.20",
@@ -1053,9 +1133,10 @@
       "released": "2026-03-31",
       "straitly_input_per_1m_usd": 0.75,
       "straitly_output_per_1m_usd": 1.5,
-      "list_input_per_1m_usd": null,
-      "list_output_per_1m_usd": null,
-      "url": "https://straitly.ai/models/x-ai/grok-4.20"
+      "list_input_per_1m_usd": 1.25,
+      "list_output_per_1m_usd": 2.5,
+      "url": "https://straitly.ai/models/x-ai/grok-4.20",
+      "list_basis": "official"
     },
     {
       "key": "minimax/minimax-m2.7",
@@ -1068,7 +1149,8 @@
       "straitly_output_per_1m_usd": 0.72,
       "list_input_per_1m_usd": 0.3,
       "list_output_per_1m_usd": 1.2,
-      "url": "https://straitly.ai/models/minimax/minimax-m2.7"
+      "url": "https://straitly.ai/models/minimax/minimax-m2.7",
+      "list_basis": "list"
     },
     {
       "key": "openai/gpt-5.4-nano",
@@ -1081,7 +1163,8 @@
       "straitly_output_per_1m_usd": 0.75,
       "list_input_per_1m_usd": 0.2,
       "list_output_per_1m_usd": 1.25,
-      "url": "https://straitly.ai/models/openai/gpt-5.4-nano"
+      "url": "https://straitly.ai/models/openai/gpt-5.4-nano",
+      "list_basis": "list"
     },
     {
       "key": "openai/gpt-5.4-mini",
@@ -1094,7 +1177,8 @@
       "straitly_output_per_1m_usd": 2.7,
       "list_input_per_1m_usd": 0.75,
       "list_output_per_1m_usd": 4.5,
-      "url": "https://straitly.ai/models/gpt-5.4-mini"
+      "url": "https://straitly.ai/models/gpt-5.4-mini",
+      "list_basis": "list"
     },
     {
       "key": "mistralai/mistral-small-2603",
@@ -1105,9 +1189,10 @@
       "released": "2026-03-16",
       "straitly_input_per_1m_usd": 0.09,
       "straitly_output_per_1m_usd": 0.36,
-      "list_input_per_1m_usd": null,
-      "list_output_per_1m_usd": null,
-      "url": "https://straitly.ai/models/mistralai/mistral-small-2603"
+      "list_input_per_1m_usd": 0.15,
+      "list_output_per_1m_usd": 0.6,
+      "url": "https://straitly.ai/models/mistralai/mistral-small-2603",
+      "list_basis": "official"
     },
     {
       "key": "z-ai/glm-5-turbo",
@@ -1120,7 +1205,8 @@
       "straitly_output_per_1m_usd": 2.4,
       "list_input_per_1m_usd": 1.2,
       "list_output_per_1m_usd": 4,
-      "url": "https://straitly.ai/models/z-ai/glm-5-turbo"
+      "url": "https://straitly.ai/models/z-ai/glm-5-turbo",
+      "list_basis": "list"
     },
     {
       "key": "nvidia/nemotron-3-super-120b-a12b",
@@ -1133,7 +1219,8 @@
       "straitly_output_per_1m_usd": 0.24,
       "list_input_per_1m_usd": null,
       "list_output_per_1m_usd": null,
-      "url": "https://straitly.ai/models/nvidia/nemotron-3-super-120b-a12b"
+      "url": "https://straitly.ai/models/nvidia/nemotron-3-super-120b-a12b",
+      "list_basis": ""
     },
     {
       "key": "qwen/qwen3.5-9b",
@@ -1146,7 +1233,8 @@
       "straitly_output_per_1m_usd": 0.09,
       "list_input_per_1m_usd": 0.1,
       "list_output_per_1m_usd": 0.15,
-      "url": "https://straitly.ai/models/qwen/qwen3.5-9b"
+      "url": "https://straitly.ai/models/qwen/qwen3.5-9b",
+      "list_basis": "list"
     },
     {
       "key": "openai/gpt-5.4",
@@ -1159,7 +1247,8 @@
       "straitly_output_per_1m_usd": 9,
       "list_input_per_1m_usd": 2.5,
       "list_output_per_1m_usd": 15,
-      "url": "https://straitly.ai/models/gpt-5.4"
+      "url": "https://straitly.ai/models/gpt-5.4",
+      "list_basis": "list"
     },
     {
       "key": "gpt-5.4-pro",
@@ -1172,7 +1261,8 @@
       "straitly_output_per_1m_usd": 108,
       "list_input_per_1m_usd": 30,
       "list_output_per_1m_usd": 180,
-      "url": "https://straitly.ai/models/gpt-5.4-pro"
+      "url": "https://straitly.ai/models/gpt-5.4-pro",
+      "list_basis": "list"
     },
     {
       "key": "qwen/qwen3.5-35b-a3b",
@@ -1183,9 +1273,10 @@
       "released": "2026-02-25",
       "straitly_input_per_1m_usd": 0.0342,
       "straitly_output_per_1m_usd": 0.2754,
-      "list_input_per_1m_usd": null,
-      "list_output_per_1m_usd": null,
-      "url": "https://straitly.ai/models/qwen/qwen3.5-35b-a3b"
+      "list_input_per_1m_usd": 0.1625,
+      "list_output_per_1m_usd": 1.3,
+      "url": "https://straitly.ai/models/qwen/qwen3.5-35b-a3b",
+      "list_basis": "official"
     },
     {
       "key": "openai/gpt-5.3-codex",
@@ -1198,7 +1289,8 @@
       "straitly_output_per_1m_usd": 8.4,
       "list_input_per_1m_usd": 1.75,
       "list_output_per_1m_usd": 14,
-      "url": "https://straitly.ai/models/openai/gpt-5.3-codex"
+      "url": "https://straitly.ai/models/openai/gpt-5.3-codex",
+      "list_basis": "list"
     },
     {
       "key": "google/gemini-3.1-pro-preview",
@@ -1211,7 +1303,8 @@
       "straitly_output_per_1m_usd": 7.2,
       "list_input_per_1m_usd": 2,
       "list_output_per_1m_usd": 12,
-      "url": "https://straitly.ai/models/google/gemini-3.1-pro-preview"
+      "url": "https://straitly.ai/models/google/gemini-3.1-pro-preview",
+      "list_basis": "list"
     },
     {
       "key": "anthropic/claude-sonnet-4.6",
@@ -1222,9 +1315,10 @@
       "released": "2026-02-17",
       "straitly_input_per_1m_usd": 1.8,
       "straitly_output_per_1m_usd": 9,
-      "list_input_per_1m_usd": null,
-      "list_output_per_1m_usd": null,
-      "url": "https://straitly.ai/models/claude-sonnet-4.6"
+      "list_input_per_1m_usd": 3,
+      "list_output_per_1m_usd": 15,
+      "url": "https://straitly.ai/models/claude-sonnet-4.6",
+      "list_basis": "official"
     },
     {
       "key": "qwen/qwen3.5-plus-02-15",
@@ -1235,9 +1329,10 @@
       "released": "2026-02-16",
       "straitly_input_per_1m_usd": 0.156,
       "straitly_output_per_1m_usd": 0.936,
-      "list_input_per_1m_usd": null,
-      "list_output_per_1m_usd": null,
-      "url": "https://straitly.ai/models/qwen/qwen3.5-plus-02-15"
+      "list_input_per_1m_usd": 0.26,
+      "list_output_per_1m_usd": 1.56,
+      "url": "https://straitly.ai/models/qwen/qwen3.5-plus-02-15",
+      "list_basis": "official"
     },
     {
       "key": "qwen/qwen3.5-397b-a17b",
@@ -1250,7 +1345,8 @@
       "straitly_output_per_1m_usd": 0.6192,
       "list_input_per_1m_usd": 0.172,
       "list_output_per_1m_usd": 1.032,
-      "url": "https://straitly.ai/models/qwen/qwen3.5-397b-a17b"
+      "url": "https://straitly.ai/models/qwen/qwen3.5-397b-a17b",
+      "list_basis": "list"
     },
     {
       "key": "minimax/minimax-m2.5",
@@ -1263,7 +1359,8 @@
       "straitly_output_per_1m_usd": 0.72,
       "list_input_per_1m_usd": 0.3,
       "list_output_per_1m_usd": 1.2,
-      "url": "https://straitly.ai/models/minimax/minimax-m2.5"
+      "url": "https://straitly.ai/models/minimax/minimax-m2.5",
+      "list_basis": "list"
     },
     {
       "key": "z-ai/glm-5",
@@ -1276,7 +1373,8 @@
       "straitly_output_per_1m_usd": 1.92,
       "list_input_per_1m_usd": 1,
       "list_output_per_1m_usd": 3.2,
-      "url": "https://straitly.ai/models/z-ai/glm-5"
+      "url": "https://straitly.ai/models/z-ai/glm-5",
+      "list_basis": "list"
     },
     {
       "key": "qwen/qwen3-coder-next",
@@ -1289,7 +1387,8 @@
       "straitly_output_per_1m_usd": 0.9,
       "list_input_per_1m_usd": 0.2,
       "list_output_per_1m_usd": 1.5,
-      "url": "https://straitly.ai/models/qwen/qwen3-coder-next"
+      "url": "https://straitly.ai/models/qwen/qwen3-coder-next",
+      "list_basis": "list"
     },
     {
       "key": "anthropic/claude-opus-4.6",
@@ -1300,9 +1399,10 @@
       "released": "2026-02-04",
       "straitly_input_per_1m_usd": 3,
       "straitly_output_per_1m_usd": 15,
-      "list_input_per_1m_usd": null,
-      "list_output_per_1m_usd": null,
-      "url": "https://straitly.ai/models/claude-opus-4.6"
+      "list_input_per_1m_usd": 5,
+      "list_output_per_1m_usd": 25,
+      "url": "https://straitly.ai/models/claude-opus-4.6",
+      "list_basis": "official"
     },
     {
       "key": "moonshotai/kimi-k2.5",
@@ -1315,7 +1415,8 @@
       "straitly_output_per_1m_usd": 1.35,
       "list_input_per_1m_usd": 0.45,
       "list_output_per_1m_usd": 2.25,
-      "url": "https://straitly.ai/models/moonshotai/kimi-k2.5"
+      "url": "https://straitly.ai/models/moonshotai/kimi-k2.5",
+      "list_basis": "list"
     },
     {
       "key": "z-ai/glm-4.7-flash",
@@ -1328,7 +1429,8 @@
       "straitly_output_per_1m_usd": 0.24,
       "list_input_per_1m_usd": null,
       "list_output_per_1m_usd": null,
-      "url": "https://straitly.ai/models/z-ai/glm-4.7-flash"
+      "url": "https://straitly.ai/models/z-ai/glm-4.7-flash",
+      "list_basis": ""
     },
     {
       "key": "minimax/minimax-m2-1",
@@ -1341,7 +1443,8 @@
       "straitly_output_per_1m_usd": 0.72,
       "list_input_per_1m_usd": 0.3,
       "list_output_per_1m_usd": 1.2,
-      "url": "https://straitly.ai/models/minimax/minimax-m2-1"
+      "url": "https://straitly.ai/models/minimax/minimax-m2-1",
+      "list_basis": "list"
     },
     {
       "key": "z-ai/glm-4.7",
@@ -1354,7 +1457,8 @@
       "straitly_output_per_1m_usd": 1.05,
       "list_input_per_1m_usd": 0.4,
       "list_output_per_1m_usd": 1.75,
-      "url": "https://straitly.ai/models/z-ai/glm-4.7"
+      "url": "https://straitly.ai/models/z-ai/glm-4.7",
+      "list_basis": "list"
     },
     {
       "key": "google/gemini-3-flash-preview",
@@ -1367,7 +1471,8 @@
       "straitly_output_per_1m_usd": 1.8,
       "list_input_per_1m_usd": 0.5,
       "list_output_per_1m_usd": 3,
-      "url": "https://straitly.ai/models/google/gemini-3-flash-preview"
+      "url": "https://straitly.ai/models/google/gemini-3-flash-preview",
+      "list_basis": "list"
     },
     {
       "key": "nvidia/nemotron-3-nano-30b-a3b",
@@ -1380,7 +1485,8 @@
       "straitly_output_per_1m_usd": 0.12,
       "list_input_per_1m_usd": null,
       "list_output_per_1m_usd": null,
-      "url": "https://straitly.ai/models/nvidia/nemotron-3-nano-30b-a3b"
+      "url": "https://straitly.ai/models/nvidia/nemotron-3-nano-30b-a3b",
+      "list_basis": ""
     },
     {
       "key": "openai/gpt-5.2",
@@ -1393,7 +1499,8 @@
       "straitly_output_per_1m_usd": 8.4,
       "list_input_per_1m_usd": 1.75,
       "list_output_per_1m_usd": 14,
-      "url": "https://straitly.ai/models/openai/gpt-5.2"
+      "url": "https://straitly.ai/models/openai/gpt-5.2",
+      "list_basis": "list"
     },
     {
       "key": "amazon/nova-2-lite",
@@ -1404,9 +1511,10 @@
       "released": "2025-12-02",
       "straitly_input_per_1m_usd": 0.18,
       "straitly_output_per_1m_usd": 1.5,
-      "list_input_per_1m_usd": null,
-      "list_output_per_1m_usd": null,
-      "url": "https://straitly.ai/models/amazon/nova-2-lite"
+      "list_input_per_1m_usd": 0.3,
+      "list_output_per_1m_usd": 2.5,
+      "url": "https://straitly.ai/models/amazon/nova-2-lite",
+      "list_basis": "official"
     },
     {
       "key": "mistralai/mistral-large-2512",
@@ -1417,9 +1525,10 @@
       "released": "2025-12-01",
       "straitly_input_per_1m_usd": 0.3,
       "straitly_output_per_1m_usd": 0.9,
-      "list_input_per_1m_usd": null,
-      "list_output_per_1m_usd": null,
-      "url": "https://straitly.ai/models/mistralai/mistral-large-2512"
+      "list_input_per_1m_usd": 0.5,
+      "list_output_per_1m_usd": 1.5,
+      "url": "https://straitly.ai/models/mistralai/mistral-large-2512",
+      "list_basis": "official"
     },
     {
       "key": "deepseek/deepseek-v3.2",
@@ -1432,7 +1541,8 @@
       "straitly_output_per_1m_usd": 0.228,
       "list_input_per_1m_usd": 0.26,
       "list_output_per_1m_usd": 0.38,
-      "url": "https://straitly.ai/models/deepseek/deepseek-v3.2"
+      "url": "https://straitly.ai/models/deepseek/deepseek-v3.2",
+      "list_basis": "list"
     },
     {
       "key": "anthropic/claude-opus-4.5",
@@ -1443,9 +1553,10 @@
       "released": "2025-11-24",
       "straitly_input_per_1m_usd": 3,
       "straitly_output_per_1m_usd": 15,
-      "list_input_per_1m_usd": null,
-      "list_output_per_1m_usd": null,
-      "url": "https://straitly.ai/models/claude-opus-4.5"
+      "list_input_per_1m_usd": 5,
+      "list_output_per_1m_usd": 25,
+      "url": "https://straitly.ai/models/claude-opus-4.5",
+      "list_basis": "official"
     },
     {
       "key": "moonshotai/kimi-k2-thinking",
@@ -1458,7 +1569,8 @@
       "straitly_output_per_1m_usd": 1.5,
       "list_input_per_1m_usd": 0.6,
       "list_output_per_1m_usd": 2.5,
-      "url": "https://straitly.ai/models/moonshotai/kimi-k2-thinking"
+      "url": "https://straitly.ai/models/moonshotai/kimi-k2-thinking",
+      "list_basis": "list"
     },
     {
       "key": "openai/gpt-oss-safeguard-20b",
@@ -1471,7 +1583,8 @@
       "straitly_output_per_1m_usd": 0.12,
       "list_input_per_1m_usd": null,
       "list_output_per_1m_usd": null,
-      "url": "https://straitly.ai/models/openai/gpt-oss-safeguard-20b"
+      "url": "https://straitly.ai/models/openai/gpt-oss-safeguard-20b",
+      "list_basis": ""
     },
     {
       "key": "minimax/minimax-m2",
@@ -1484,7 +1597,8 @@
       "straitly_output_per_1m_usd": 0.72,
       "list_input_per_1m_usd": 0.3,
       "list_output_per_1m_usd": 1.2,
-      "url": "https://straitly.ai/models/minimax/minimax-m2"
+      "url": "https://straitly.ai/models/minimax/minimax-m2",
+      "list_basis": "list"
     },
     {
       "key": "anthropic/claude-haiku-4.5",
@@ -1495,9 +1609,10 @@
       "released": "2025-10-15",
       "straitly_input_per_1m_usd": 0.6,
       "straitly_output_per_1m_usd": 3,
-      "list_input_per_1m_usd": null,
-      "list_output_per_1m_usd": null,
-      "url": "https://straitly.ai/models/claude-haiku-4.5"
+      "list_input_per_1m_usd": 1,
+      "list_output_per_1m_usd": 5,
+      "url": "https://straitly.ai/models/claude-haiku-4.5",
+      "list_basis": "official"
     },
     {
       "key": "z-ai/glm-4.6",
@@ -1510,7 +1625,8 @@
       "straitly_output_per_1m_usd": 1.2,
       "list_input_per_1m_usd": 0.5,
       "list_output_per_1m_usd": 2,
-      "url": "https://straitly.ai/models/z-ai/glm-4.6"
+      "url": "https://straitly.ai/models/z-ai/glm-4.6",
+      "list_basis": "list"
     },
     {
       "key": "anthropic/claude-sonnet-4.5",
@@ -1521,9 +1637,10 @@
       "released": "2025-09-29",
       "straitly_input_per_1m_usd": 1.8,
       "straitly_output_per_1m_usd": 9,
-      "list_input_per_1m_usd": null,
-      "list_output_per_1m_usd": null,
-      "url": "https://straitly.ai/models/claude-sonnet-4.5"
+      "list_input_per_1m_usd": 3,
+      "list_output_per_1m_usd": 15,
+      "url": "https://straitly.ai/models/claude-sonnet-4.5",
+      "list_basis": "official"
     },
     {
       "key": "qwen/qwen3-vl-235b-a22b-instruct",
@@ -1536,7 +1653,8 @@
       "straitly_output_per_1m_usd": 0.528,
       "list_input_per_1m_usd": 0.2,
       "list_output_per_1m_usd": 0.88,
-      "url": "https://straitly.ai/models/qwen/qwen3-vl-235b-a22b-instruct"
+      "url": "https://straitly.ai/models/qwen/qwen3-vl-235b-a22b-instruct",
+      "list_basis": "list"
     },
     {
       "key": "qwen/qwen3-next-80b-a3b-instruct",
@@ -1549,7 +1667,8 @@
       "straitly_output_per_1m_usd": 0.66,
       "list_input_per_1m_usd": 0.09,
       "list_output_per_1m_usd": 1.1,
-      "url": "https://straitly.ai/models/qwen/qwen3-next-80b-a3b-instruct"
+      "url": "https://straitly.ai/models/qwen/qwen3-next-80b-a3b-instruct",
+      "list_basis": "list"
     },
     {
       "key": "moonshotai/kimi-k2-0905",
@@ -1562,7 +1681,8 @@
       "straitly_output_per_1m_usd": 1.5,
       "list_input_per_1m_usd": null,
       "list_output_per_1m_usd": null,
-      "url": "https://straitly.ai/models/moonshotai/kimi-k2-0905"
+      "url": "https://straitly.ai/models/moonshotai/kimi-k2-0905",
+      "list_basis": ""
     },
     {
       "key": "deepseek/deepseek-v3-1",
@@ -1575,7 +1695,8 @@
       "straitly_output_per_1m_usd": 0.57,
       "list_input_per_1m_usd": 0.25,
       "list_output_per_1m_usd": 0.95,
-      "url": "https://straitly.ai/models/deepseek/deepseek-v3-1"
+      "url": "https://straitly.ai/models/deepseek/deepseek-v3-1",
+      "list_basis": "list"
     },
     {
       "key": "openai/gpt-5-nano",
@@ -1588,7 +1709,8 @@
       "straitly_output_per_1m_usd": 0.24,
       "list_input_per_1m_usd": 0.05,
       "list_output_per_1m_usd": 0.4,
-      "url": "https://straitly.ai/models/openai/gpt-5-nano"
+      "url": "https://straitly.ai/models/openai/gpt-5-nano",
+      "list_basis": "list"
     },
     {
       "key": "openai/gpt-5-mini",
@@ -1601,7 +1723,8 @@
       "straitly_output_per_1m_usd": 1.2,
       "list_input_per_1m_usd": 0.25,
       "list_output_per_1m_usd": 2,
-      "url": "https://straitly.ai/models/openai/gpt-5-mini"
+      "url": "https://straitly.ai/models/openai/gpt-5-mini",
+      "list_basis": "list"
     },
     {
       "key": "openai/gpt-oss-20b",
@@ -1614,7 +1737,8 @@
       "straitly_output_per_1m_usd": 0.078,
       "list_input_per_1m_usd": null,
       "list_output_per_1m_usd": null,
-      "url": "https://straitly.ai/models/openai/gpt-oss-20b"
+      "url": "https://straitly.ai/models/openai/gpt-oss-20b",
+      "list_basis": ""
     },
     {
       "key": "openai/gpt-oss-120b",
@@ -1627,7 +1751,8 @@
       "straitly_output_per_1m_usd": 0.102,
       "list_input_per_1m_usd": 0.037,
       "list_output_per_1m_usd": 0.17,
-      "url": "https://straitly.ai/models/openai/gpt-oss-120b"
+      "url": "https://straitly.ai/models/openai/gpt-oss-120b",
+      "list_basis": "list"
     },
     {
       "key": "claude-opus-4-1",
@@ -1640,7 +1765,8 @@
       "straitly_output_per_1m_usd": 45,
       "list_input_per_1m_usd": 15,
       "list_output_per_1m_usd": 75,
-      "url": "https://straitly.ai/models/claude-opus-4-1"
+      "url": "https://straitly.ai/models/claude-opus-4-1",
+      "list_basis": "list"
     },
     {
       "key": "qwen/qwen3-coder-30b-a3b-instruct",
@@ -1653,7 +1779,8 @@
       "straitly_output_per_1m_usd": 0.162,
       "list_input_per_1m_usd": 0.07,
       "list_output_per_1m_usd": 0.27,
-      "url": "https://straitly.ai/models/qwen/qwen3-coder-30b-a3b-instruct"
+      "url": "https://straitly.ai/models/qwen/qwen3-coder-30b-a3b-instruct",
+      "list_basis": "list"
     },
     {
       "key": "z-ai/glm-4.5-air",
@@ -1666,7 +1793,8 @@
       "straitly_output_per_1m_usd": 0.51,
       "list_input_per_1m_usd": 0.13,
       "list_output_per_1m_usd": 0.85,
-      "url": "https://straitly.ai/models/z-ai/glm-4.5-air"
+      "url": "https://straitly.ai/models/z-ai/glm-4.5-air",
+      "list_basis": "list"
     },
     {
       "key": "z-ai/glm-4.5",
@@ -1679,7 +1807,8 @@
       "straitly_output_per_1m_usd": 1.32,
       "list_input_per_1m_usd": 0.6,
       "list_output_per_1m_usd": 2.2,
-      "url": "https://straitly.ai/models/z-ai/glm-4.5"
+      "url": "https://straitly.ai/models/z-ai/glm-4.5",
+      "list_basis": "list"
     },
     {
       "key": "qwen/qwen3-235b-a22b-thinking-2507",
@@ -1692,7 +1821,8 @@
       "straitly_output_per_1m_usd": 1.38,
       "list_input_per_1m_usd": 0.23,
       "list_output_per_1m_usd": 2.3,
-      "url": "https://straitly.ai/models/qwen/qwen3-235b-a22b-thinking-2507"
+      "url": "https://straitly.ai/models/qwen/qwen3-235b-a22b-thinking-2507",
+      "list_basis": "list"
     },
     {
       "key": "qwen/qwen3-coder",
@@ -1705,7 +1835,8 @@
       "straitly_output_per_1m_usd": 0.6,
       "list_input_per_1m_usd": 0.3,
       "list_output_per_1m_usd": 1,
-      "url": "https://straitly.ai/models/qwen/qwen3-coder"
+      "url": "https://straitly.ai/models/qwen/qwen3-coder",
+      "list_basis": "list"
     },
     {
       "key": "google/gemini-2.5-flash-lite",
@@ -1716,9 +1847,10 @@
       "released": "2025-07-22",
       "straitly_input_per_1m_usd": 0.0685,
       "straitly_output_per_1m_usd": 0.274,
-      "list_input_per_1m_usd": null,
-      "list_output_per_1m_usd": null,
-      "url": "https://straitly.ai/models/google/gemini-2.5-flash-lite"
+      "list_input_per_1m_usd": 0.1,
+      "list_output_per_1m_usd": 0.4,
+      "url": "https://straitly.ai/models/google/gemini-2.5-flash-lite",
+      "list_basis": "official"
     },
     {
       "key": "qwen/qwen3-235b-a22b-2507",
@@ -1731,7 +1863,8 @@
       "straitly_output_per_1m_usd": 0.21,
       "list_input_per_1m_usd": 0.0875,
       "list_output_per_1m_usd": 0.35,
-      "url": "https://straitly.ai/models/qwen/qwen3-235b-a22b-2507"
+      "url": "https://straitly.ai/models/qwen/qwen3-235b-a22b-2507",
+      "list_basis": "list"
     },
     {
       "key": "mistralai/mistral-small-3.2-24b-instruct",
@@ -1744,7 +1877,8 @@
       "straitly_output_per_1m_usd": 0.12,
       "list_input_per_1m_usd": 0.075,
       "list_output_per_1m_usd": 0.2,
-      "url": "https://straitly.ai/models/mistralai/mistral-small-3.2-24b-instruct"
+      "url": "https://straitly.ai/models/mistralai/mistral-small-3.2-24b-instruct",
+      "list_basis": "list"
     },
     {
       "key": "google/gemini-2.5-flash",
@@ -1757,7 +1891,8 @@
       "straitly_output_per_1m_usd": 2.2375,
       "list_input_per_1m_usd": 0.3,
       "list_output_per_1m_usd": 2.5,
-      "url": "https://straitly.ai/models/google/gemini-2.5-flash"
+      "url": "https://straitly.ai/models/google/gemini-2.5-flash",
+      "list_basis": "list"
     },
     {
       "key": "gemini-2.5-pro",
@@ -1770,7 +1905,8 @@
       "straitly_output_per_1m_usd": 6,
       "list_input_per_1m_usd": 1.25,
       "list_output_per_1m_usd": 10,
-      "url": "https://straitly.ai/models/gemini-2.5-pro"
+      "url": "https://straitly.ai/models/gemini-2.5-pro",
+      "list_basis": "list"
     },
     {
       "key": "qwen/qwen3-32b",
@@ -1783,7 +1919,8 @@
       "straitly_output_per_1m_usd": 0.168,
       "list_input_per_1m_usd": null,
       "list_output_per_1m_usd": null,
-      "url": "https://straitly.ai/models/qwen/qwen3-32b"
+      "url": "https://straitly.ai/models/qwen/qwen3-32b",
+      "list_basis": ""
     },
     {
       "key": "openai/gpt-4.1-nano",
@@ -1796,7 +1933,8 @@
       "straitly_output_per_1m_usd": 0.24,
       "list_input_per_1m_usd": null,
       "list_output_per_1m_usd": null,
-      "url": "https://straitly.ai/models/openai/gpt-4.1-nano"
+      "url": "https://straitly.ai/models/openai/gpt-4.1-nano",
+      "list_basis": ""
     },
     {
       "key": "google/gemma-3-12b-it",
@@ -1809,7 +1947,8 @@
       "straitly_output_per_1m_usd": 0.09,
       "list_input_per_1m_usd": null,
       "list_output_per_1m_usd": null,
-      "url": "https://straitly.ai/models/google/gemma-3-12b-it"
+      "url": "https://straitly.ai/models/google/gemma-3-12b-it",
+      "list_basis": ""
     },
     {
       "key": "google/gemma-3-27b-it",
@@ -1822,7 +1961,8 @@
       "straitly_output_per_1m_usd": 0.096,
       "list_input_per_1m_usd": null,
       "list_output_per_1m_usd": null,
-      "url": "https://straitly.ai/models/google/gemma-3-27b-it"
+      "url": "https://straitly.ai/models/google/gemma-3-27b-it",
+      "list_basis": ""
     },
     {
       "key": "deepseek/deepseek-r1",
@@ -1835,7 +1975,8 @@
       "straitly_output_per_1m_usd": 3.24,
       "list_input_per_1m_usd": 1.35,
       "list_output_per_1m_usd": 5.4,
-      "url": "https://straitly.ai/models/deepseek/deepseek-r1"
+      "url": "https://straitly.ai/models/deepseek/deepseek-r1",
+      "list_basis": "list"
     },
     {
       "key": "meta-llama/llama-3.3-70b-instruct",
@@ -1848,7 +1989,8 @@
       "straitly_output_per_1m_usd": 0.192,
       "list_input_per_1m_usd": 0.1,
       "list_output_per_1m_usd": 0.32,
-      "url": "https://straitly.ai/models/meta-llama/llama-3.3-70b-instruct"
+      "url": "https://straitly.ai/models/meta-llama/llama-3.3-70b-instruct",
+      "list_basis": "list"
     },
     {
       "key": "meta-llama/llama-3.2-3b-instruct",
@@ -1861,7 +2003,8 @@
       "straitly_output_per_1m_usd": 0.201,
       "list_input_per_1m_usd": 0.0509,
       "list_output_per_1m_usd": 0.335,
-      "url": "https://straitly.ai/models/meta-llama/llama-3.2-3b-instruct"
+      "url": "https://straitly.ai/models/meta-llama/llama-3.2-3b-instruct",
+      "list_basis": "list"
     },
     {
       "key": "openai/gpt-4o-mini",
@@ -1874,7 +2017,8 @@
       "straitly_output_per_1m_usd": 0.36,
       "list_input_per_1m_usd": 0.15,
       "list_output_per_1m_usd": 0.6,
-      "url": "https://straitly.ai/models/openai/gpt-4o-mini"
+      "url": "https://straitly.ai/models/openai/gpt-4o-mini",
+      "list_basis": "list"
     },
     {
       "key": "openai/gpt-4o",
@@ -1887,7 +2031,8 @@
       "straitly_output_per_1m_usd": 6,
       "list_input_per_1m_usd": 2.5,
       "list_output_per_1m_usd": 10,
-      "url": "https://straitly.ai/models/openai/gpt-4o"
+      "url": "https://straitly.ai/models/openai/gpt-4o",
+      "list_basis": "list"
     },
     {
       "key": "qwen4-max",
@@ -1900,7 +2045,8 @@
       "straitly_output_per_1m_usd": 4.5,
       "list_input_per_1m_usd": null,
       "list_output_per_1m_usd": null,
-      "url": "https://straitly.ai/models/qwen4-max"
+      "url": "https://straitly.ai/models/qwen4-max",
+      "list_basis": ""
     },
     {
       "key": "qwen/qwen3.5-plus",
@@ -1913,7 +2059,8 @@
       "straitly_output_per_1m_usd": 0.4128,
       "list_input_per_1m_usd": 0.115,
       "list_output_per_1m_usd": 0.688,
-      "url": "https://straitly.ai/models/qwen/qwen3.5-plus"
+      "url": "https://straitly.ai/models/qwen/qwen3.5-plus",
+      "list_basis": "list"
     },
     {
       "key": "qwen/qwen3.5-flash",
@@ -1926,7 +2073,8 @@
       "straitly_output_per_1m_usd": 0.1722,
       "list_input_per_1m_usd": 0.029,
       "list_output_per_1m_usd": 0.287,
-      "url": "https://straitly.ai/models/qwen/qwen3.5-flash"
+      "url": "https://straitly.ai/models/qwen/qwen3.5-flash",
+      "list_basis": "list"
     },
     {
       "key": "qwen/qwen3-30b",
@@ -1939,7 +2087,8 @@
       "straitly_output_per_1m_usd": 0.201,
       "list_input_per_1m_usd": 0.0509,
       "list_output_per_1m_usd": 0.335,
-      "url": "https://straitly.ai/models/qwen/qwen3-30b"
+      "url": "https://straitly.ai/models/qwen/qwen3-30b",
+      "list_basis": "list"
     },
     {
       "key": "particle-ai/particle-1",
@@ -1952,7 +2101,8 @@
       "straitly_output_per_1m_usd": 1,
       "list_input_per_1m_usd": null,
       "list_output_per_1m_usd": null,
-      "url": "https://straitly.ai/models/particle-ai/particle-1"
+      "url": "https://straitly.ai/models/particle-ai/particle-1",
+      "list_basis": ""
     },
     {
       "key": "muse-ember",
@@ -1965,7 +2115,8 @@
       "straitly_output_per_1m_usd": 0.5,
       "list_input_per_1m_usd": null,
       "list_output_per_1m_usd": null,
-      "url": "https://straitly.ai/models/muse-ember"
+      "url": "https://straitly.ai/models/muse-ember",
+      "list_basis": ""
     },
     {
       "key": "mistralai/mistral-large-3",
@@ -1978,7 +2129,8 @@
       "straitly_output_per_1m_usd": 0.9,
       "list_input_per_1m_usd": 0.5,
       "list_output_per_1m_usd": 1.5,
-      "url": "https://straitly.ai/models/mistralai/mistral-large-3"
+      "url": "https://straitly.ai/models/mistralai/mistral-large-3",
+      "list_basis": "list"
     },
     {
       "key": "mistralai/ministral-3-8b",
@@ -1991,7 +2143,8 @@
       "straitly_output_per_1m_usd": 0.09,
       "list_input_per_1m_usd": 0.15,
       "list_output_per_1m_usd": 0.15,
-      "url": "https://straitly.ai/models/mistralai/ministral-3-8b"
+      "url": "https://straitly.ai/models/mistralai/ministral-3-8b",
+      "list_basis": "list"
     },
     {
       "key": "mistralai/ministral-3-3b",
@@ -2004,7 +2157,8 @@
       "straitly_output_per_1m_usd": 0.06,
       "list_input_per_1m_usd": 0.1,
       "list_output_per_1m_usd": 0.1,
-      "url": "https://straitly.ai/models/mistralai/ministral-3-3b"
+      "url": "https://straitly.ai/models/mistralai/ministral-3-3b",
+      "list_basis": "list"
     },
     {
       "key": "mistralai/ministral-3-14b",
@@ -2017,7 +2171,8 @@
       "straitly_output_per_1m_usd": 0.12,
       "list_input_per_1m_usd": 0.2,
       "list_output_per_1m_usd": 0.2,
-      "url": "https://straitly.ai/models/mistralai/ministral-3-14b"
+      "url": "https://straitly.ai/models/mistralai/ministral-3-14b",
+      "list_basis": "list"
     },
     {
       "key": "mistralai/magistral-small-1.2",
@@ -2030,7 +2185,8 @@
       "straitly_output_per_1m_usd": 0.9,
       "list_input_per_1m_usd": 0.5,
       "list_output_per_1m_usd": 1.5,
-      "url": "https://straitly.ai/models/mistralai/magistral-small-1.2"
+      "url": "https://straitly.ai/models/mistralai/magistral-small-1.2",
+      "list_basis": "list"
     },
     {
       "key": "mistral-large-4",
@@ -2043,7 +2199,8 @@
       "straitly_output_per_1m_usd": 1.197,
       "list_input_per_1m_usd": null,
       "list_output_per_1m_usd": null,
-      "url": "https://straitly.ai/models/mistral-large-4"
+      "url": "https://straitly.ai/models/mistral-large-4",
+      "list_basis": ""
     },
     {
       "key": "minimax/minimax-m2-7-highspeed",
@@ -2056,7 +2213,8 @@
       "straitly_output_per_1m_usd": 1.02,
       "list_input_per_1m_usd": 0.38,
       "list_output_per_1m_usd": 1.7,
-      "url": "https://straitly.ai/models/minimax/minimax-m2-7-highspeed"
+      "url": "https://straitly.ai/models/minimax/minimax-m2-7-highspeed",
+      "list_basis": "list"
     },
     {
       "key": "minimax-m3.1-flash",
@@ -2069,7 +2227,8 @@
       "straitly_output_per_1m_usd": 0.342,
       "list_input_per_1m_usd": null,
       "list_output_per_1m_usd": null,
-      "url": "https://straitly.ai/models/minimax-m3.1-flash"
+      "url": "https://straitly.ai/models/minimax-m3.1-flash",
+      "list_basis": ""
     },
     {
       "key": "kimi-k3.1-pro",
@@ -2082,7 +2241,8 @@
       "straitly_output_per_1m_usd": 5.7,
       "list_input_per_1m_usd": null,
       "list_output_per_1m_usd": null,
-      "url": "https://straitly.ai/models/kimi-k3.1-pro"
+      "url": "https://straitly.ai/models/kimi-k3.1-pro",
+      "list_basis": ""
     },
     {
       "key": "jev-router",
@@ -2095,7 +2255,8 @@
       "straitly_output_per_1m_usd": 30,
       "list_input_per_1m_usd": null,
       "list_output_per_1m_usd": null,
-      "url": "https://straitly.ai/models/jev-router"
+      "url": "https://straitly.ai/models/jev-router",
+      "list_basis": ""
     },
     {
       "key": "grok-4.20-multi-agent-0309",
@@ -2108,7 +2269,8 @@
       "straitly_output_per_1m_usd": 1.5,
       "list_input_per_1m_usd": 1.25,
       "list_output_per_1m_usd": 2.5,
-      "url": "https://straitly.ai/models/grok-4.20-multi-agent-0309"
+      "url": "https://straitly.ai/models/grok-4.20-multi-agent-0309",
+      "list_basis": "list"
     },
     {
       "key": "gpt-oss-safeguard-120b",
@@ -2121,7 +2283,8 @@
       "straitly_output_per_1m_usd": 0.36,
       "list_input_per_1m_usd": 0.15,
       "list_output_per_1m_usd": 0.6,
-      "url": "https://straitly.ai/models/gpt-oss-safeguard-120b"
+      "url": "https://straitly.ai/models/gpt-oss-safeguard-120b",
+      "list_basis": "list"
     },
     {
       "key": "gpt-6.2-sol",
@@ -2134,7 +2297,8 @@
       "straitly_output_per_1m_usd": 6,
       "list_input_per_1m_usd": null,
       "list_output_per_1m_usd": null,
-      "url": "https://straitly.ai/models/gpt-6.2-sol"
+      "url": "https://straitly.ai/models/gpt-6.2-sol",
+      "list_basis": ""
     },
     {
       "key": "gpt-6.2-astra",
@@ -2147,7 +2311,8 @@
       "straitly_output_per_1m_usd": 24,
       "list_input_per_1m_usd": null,
       "list_output_per_1m_usd": null,
-      "url": "https://straitly.ai/models/gpt-6.2-astra"
+      "url": "https://straitly.ai/models/gpt-6.2-astra",
+      "list_basis": ""
     },
     {
       "key": "gpt-6.1-terra",
@@ -2160,7 +2325,8 @@
       "straitly_output_per_1m_usd": 3,
       "list_input_per_1m_usd": null,
       "list_output_per_1m_usd": null,
-      "url": "https://straitly.ai/models/gpt-6.1-terra"
+      "url": "https://straitly.ai/models/gpt-6.1-terra",
+      "list_basis": ""
     },
     {
       "key": "gemma-3-4b",
@@ -2173,7 +2339,8 @@
       "straitly_output_per_1m_usd": 0.048,
       "list_input_per_1m_usd": 0.04,
       "list_output_per_1m_usd": 0.08,
-      "url": "https://straitly.ai/models/gemma-3-4b"
+      "url": "https://straitly.ai/models/gemma-3-4b",
+      "list_basis": "list"
     },
     {
       "key": "gemini-4-hydrogen",
@@ -2186,7 +2353,8 @@
       "straitly_output_per_1m_usd": 7.5,
       "list_input_per_1m_usd": null,
       "list_output_per_1m_usd": null,
-      "url": "https://straitly.ai/models/gemini-4-hydrogen"
+      "url": "https://straitly.ai/models/gemini-4-hydrogen",
+      "list_basis": ""
     },
     {
       "key": "gemini-4-carbon",
@@ -2199,7 +2367,8 @@
       "straitly_output_per_1m_usd": 10,
       "list_input_per_1m_usd": null,
       "list_output_per_1m_usd": null,
-      "url": "https://straitly.ai/models/gemini-4-carbon"
+      "url": "https://straitly.ai/models/gemini-4-carbon",
+      "list_basis": ""
     },
     {
       "key": "deepseek/deepseek-v4-1-flash-uncensored",
@@ -2212,7 +2381,8 @@
       "straitly_output_per_1m_usd": 0.6831,
       "list_input_per_1m_usd": null,
       "list_output_per_1m_usd": null,
-      "url": "https://straitly.ai/models/deepseek/deepseek-v4-1-flash-uncensored"
+      "url": "https://straitly.ai/models/deepseek/deepseek-v4-1-flash-uncensored",
+      "list_basis": ""
     },
     {
       "key": "claude-sonnet-5-fast",
@@ -2225,7 +2395,8 @@
       "straitly_output_per_1m_usd": 6,
       "list_input_per_1m_usd": 2,
       "list_output_per_1m_usd": 10,
-      "url": "https://straitly.ai/models/claude-sonnet-5-fast"
+      "url": "https://straitly.ai/models/claude-sonnet-5-fast",
+      "list_basis": "list"
     },
     {
       "key": "claude-fable-5-fast",
@@ -2238,7 +2409,8 @@
       "straitly_output_per_1m_usd": 30,
       "list_input_per_1m_usd": 10,
       "list_output_per_1m_usd": 50,
-      "url": "https://straitly.ai/models/claude-fable-5-fast"
+      "url": "https://straitly.ai/models/claude-fable-5-fast",
+      "list_basis": "list"
     }
   ]
 }

@@ -23,3 +23,23 @@ jobs:
           git add prices.json prices.csv README.md
           git diff --cached --quiet || git commit -m "chore: refresh daily LLM price index"
           git push
+      - name: Push to Hugging Face (Straitly-ai/llm-api-prices)
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: |
+          if [ -z "$HF_TOKEN" ]; then echo "HF_TOKEN not set, skipping"; exit 0; fi
+          pip install --quiet "huggingface_hub>=0.26"
+          python3 - <<'EOF'
+          import json
+          from huggingface_hub import HfApi, CommitOperationAdd
+          day = json.load(open("prices.json"))["updated_at_utc"][:10]
+          HfApi().create_commit(
+              repo_id="Straitly-ai/llm-api-prices",
+              repo_type="dataset",
+              operations=[
+                  CommitOperationAdd("prices.csv", "prices.csv"),
+                  CommitOperationAdd("prices.json", "prices.json"),
+              ],
+              commit_message=f"Daily refresh {day}",
+          )
+          EOF
