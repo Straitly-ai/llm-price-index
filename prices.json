@@ -1,7 +1,7 @@
 {
   "source": "https://straitly.ai/llm-api-price-index",
   "catalog": "https://straitly.ai/api/catalog",
-  "updated_at_utc": "2026-11-27T01:51:50Z",
+  "updated_at_utc": "2026-11-27T21:58:57Z",
   "model_count": 172,
   "models": [
     {
@@ -1437,7 +1437,7 @@
       "id": "minimax/minimax-m2-1",
       "name": "MiniMax M2.1",
       "lab": "MiniMax",
-      "context": 204800,
+      "context": 196608,
       "released": "2025-12-23",
       "straitly_input_per_1m_usd": 0.18,
       "straitly_output_per_1m_usd": 0.72,
@@ -1563,7 +1563,7 @@
       "id": "moonshotai/kimi-k2-thinking",
       "name": "Kimi K2 Thinking",
       "lab": "Moonshot",
-      "context": 262144,
+      "context": 256000,
       "released": "2025-11-06",
       "straitly_input_per_1m_usd": 0.36,
       "straitly_output_per_1m_usd": 1.5,
@@ -2207,7 +2207,7 @@
       "id": "minimax/minimax-m2-7-highspeed",
       "name": "MiniMax M2.7 Highspeed",
       "lab": "MiniMax",
-      "context": 204800,
+      "context": 196608,
       "released": null,
       "straitly_input_per_1m_usd": 0.228,
       "straitly_output_per_1m_usd": 1.02,

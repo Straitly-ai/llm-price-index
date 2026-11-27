@@ -101,7 +101,7 @@ qwen/qwen3-coder-next,Qwen3 Coder Next,Qwen,256000,2026-02-04,0.12,0.9,0.2,1.5,h
 anthropic/claude-opus-4.6,Claude Opus 4.6,Anthropic,1000000,2026-02-04,3,15,5,25,https://straitly.ai/models/claude-opus-4.6,official
 moonshotai/kimi-k2.5,Kimi K2.5,Moonshot,262144,2026-01-27,0.27,1.35,0.45,2.25,https://straitly.ai/models/moonshotai/kimi-k2.5,list
 z-ai/glm-4.7-flash,GLM-4.7 Flash,Z.ai,200000,2026-01-19,0.0363,0.24,,,https://straitly.ai/models/z-ai/glm-4.7-flash,
-minimax/minimax-m2-1,MiniMax M2.1,MiniMax,204800,2025-12-23,0.18,0.72,0.3,1.2,https://straitly.ai/models/minimax/minimax-m2-1,list
+minimax/minimax-m2-1,MiniMax M2.1,MiniMax,196608,2025-12-23,0.18,0.72,0.3,1.2,https://straitly.ai/models/minimax/minimax-m2-1,list
 z-ai/glm-4.7,GLM-4.7,Z.ai,202752,2025-12-22,0.24,1.05,0.4,1.75,https://straitly.ai/models/z-ai/glm-4.7,list
 google/gemini-3-flash-preview,Gemini 3 Flash Preview,Google,1048576,2025-12-17,0.3,1.8,0.5,3,https://straitly.ai/models/google/gemini-3-flash-preview,list
 nvidia/nemotron-3-nano-30b-a3b,Nemotron 3 Nano 30B A3B,NVIDIA,350000,2025-12-14,0.03,0.12,,,https://straitly.ai/models/nvidia/nemotron-3-nano-30b-a3b,
@@ -110,7 +110,7 @@ amazon/nova-2-lite,Amazon Nova 2 Lite,Amazon,1000000,2025-12-02,0.18,1.5,0.3,2.5
 mistralai/mistral-large-2512,Mistral Large 3 2512,Mistral,256000,2025-12-01,0.3,0.9,0.5,1.5,https://straitly.ai/models/mistralai/mistral-large-2512,official
 deepseek/deepseek-v3.2,DeepSeek V3.2,DeepSeek,163840,2025-12-01,0.156,0.228,0.26,0.38,https://straitly.ai/models/deepseek/deepseek-v3.2,list
 anthropic/claude-opus-4.5,Claude Opus 4.5,Anthropic,200000,2025-11-24,3,15,5,25,https://straitly.ai/models/claude-opus-4.5,official
-moonshotai/kimi-k2-thinking,Kimi K2 Thinking,Moonshot,262144,2025-11-06,0.36,1.5,0.6,2.5,https://straitly.ai/models/moonshotai/kimi-k2-thinking,list
+moonshotai/kimi-k2-thinking,Kimi K2 Thinking,Moonshot,256000,2025-11-06,0.36,1.5,0.6,2.5,https://straitly.ai/models/moonshotai/kimi-k2-thinking,list
 openai/gpt-oss-safeguard-20b,gpt-oss-safeguard-20b,OpenAI,131072,2025-10-29,0.042,0.12,,,https://straitly.ai/models/openai/gpt-oss-safeguard-20b,
 minimax/minimax-m2,MiniMax M2,MiniMax,204800,2025-10-23,0.18,0.72,0.3,1.2,https://straitly.ai/models/minimax/minimax-m2,list
 anthropic/claude-haiku-4.5,Claude Haiku 4.5,Anthropic,200000,2025-10-15,0.6,3,1,5,https://straitly.ai/models/claude-haiku-4.5,official
@@ -156,7 +156,7 @@ mistralai/ministral-3-3b,Ministral 3 3B,Mistral,256000,,0.06,0.06,0.1,0.1,https:
 mistralai/ministral-3-14b,Ministral 3 14B,Mistral,256000,,0.12,0.12,0.2,0.2,https://straitly.ai/models/mistralai/ministral-3-14b,list
 mistralai/magistral-small-1.2,Magistral Small 1.2,Mistral,128000,,0.3,0.9,0.5,1.5,https://straitly.ai/models/mistralai/magistral-small-1.2,list
 mistral-large-4,Mistral Large 4,Mistral,470000,,0.399,1.197,,,https://straitly.ai/models/mistral-large-4,
-minimax/minimax-m2-7-highspeed,MiniMax M2.7 Highspeed,MiniMax,204800,,0.228,1.02,0.38,1.7,https://straitly.ai/models/minimax/minimax-m2-7-highspeed,list
+minimax/minimax-m2-7-highspeed,MiniMax M2.7 Highspeed,MiniMax,196608,,0.228,1.02,0.38,1.7,https://straitly.ai/models/minimax/minimax-m2-7-highspeed,list
 minimax-m3.1-flash,MiniMax M3.1 Flash,MiniMax,1048576,,0.0855,0.342,,,https://straitly.ai/models/minimax-m3.1-flash,
 kimi-k3.1-pro,Kimi K3.1 Pro,Moonshot,1048576,,1.14,5.7,,,https://straitly.ai/models/kimi-k3.1-pro,
 jev-router,JevRouter,Straitly,1050000,,6,30,,,https://straitly.ai/models/jev-router,
